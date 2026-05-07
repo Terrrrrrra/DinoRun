@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     {
         if (_playerInput.Player.Jump.WasPressedThisFrame())
         {
-            _rd.AddForce(new Vector2(0, _jumpPower), ForceMode2D.Impulse);
+            _rd.AddForce(new Vector2(0, _jumpPower), ForceMode2D.Impulse); // Force도 있음
         }
     }
 
